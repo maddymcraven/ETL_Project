@@ -6,6 +6,8 @@ Extract
 
 Transform
 - Cleaning data sources to only relevant data (most current COVID data)
+- Dropping unneeded columns in Census data
+- Stripping state/county info in Census data
 - Making FIPS common type on both datasources
 - Merge with pandas on FIPS
 
