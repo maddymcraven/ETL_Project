@@ -5,7 +5,12 @@ Extract
 - Extract COVID-19 data: https://www.kaggle.com/imdevskp/corona-virus-report/data?select=usa_county_wise.csv 
 
 Transform
-- Merge on FIPS
+- Cleaning data sources to only relevant data (most current COVID data)
+- Making FIPS common type on both datasources
+- Merge with pandas on FIPS
 
 Load
 - Load to a SQL DB
+- Final table covid_census
+
+
